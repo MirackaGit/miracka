@@ -4,7 +4,7 @@ import Slider from "react-slick";
 // image
 
 const OurServicesHp = () => {
-
+    const [hoveredIndex, setHoveredIndex] = React.useState(-1);
     const services = [
         {
             name: "Teach Solution",
@@ -142,10 +142,14 @@ const OurServicesHp = () => {
                 <div data-aos="fade-up">
                     <Slider {...settings}>
                         {
-                            services.map((service, s) => {
+                            services.map((service, index) => {
                                 return (
-                                    <div key={s} className='group'>
-                                        <div className={`h-auto md:h-[400px] text-center py-12 bg-[#F4F4F4] group-hover:bg-[${service.color}]`} >
+                                    <div key={index} className='group'>
+                                        <div className='h-auto md:h-[400px] text-center py-12 px-6'
+                                            style={{ backgroundColor: hoveredIndex === index ? service.color : '#F4F4F4' }}
+                                            onMouseEnter={() => setHoveredIndex(index)}
+                                            onMouseLeave={() => setHoveredIndex(-1)}
+                                        >
                                             <div>
                                                 <h3 className='text-[#a29ea0] group-hover:text-[#fff9fd]'>{service.name}</h3>
                                             </div>
