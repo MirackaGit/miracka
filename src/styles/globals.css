@@ -2,26 +2,243 @@
 @tailwind components;
 @tailwind utilities;
 
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Miracka
+    Template URI: 
+    Description: This is Next js template
+    Author: Suriya
+    Author URI: http://Miracka.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------
+
+     CSS INDEX
+    ===================
+    1.Global CSS
+    2.Common CSS
+    3.Header CSS
+    4.Home Pgae CSS
+
+-----------------------------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --font: "Sora", sans-serif;
+  --yellow: #6C0045;
+  --black: #0e0209;
+  --drak-gray: #141113;
+  --gray: #a29ea0;
+  --white: #fff9fd;
+  --para-color: #aaaaaa;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  font-family: var(--font) !important;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  box-sizing: border-box !important;
+  font-family: var(--font);
+  padding: 0;
+  margin: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Removeing input number arrow Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Removeing input number arrow : Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*----------------------------------------------------*/
+/* 1.Global CSS */
+/*----------------------------------------------------*/
+.primary-cl {
+  color: var(--yellow);
+}
+.white-cl {
+  color: var(--white);
+}
+.black-cl {
+  color: var(--black);
+}
+.gray-cl {
+  color: var(--gray);
+}
+.dr-gray-cl {
+  color: var(--drak-gray);
+}
+.bg-drak-gray {
+  background-color: var(--drak-gray);
+}
+/* fonts size */
+p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--para-color);
+}
+h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: var(--black);
+}
+h2 {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--black);
+}
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--black);
+}
+h4 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--black);
+}
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black);
+}
+h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+/*----------------------------------------*/
+/* 2.Common CSS */
+/*----------------------------------------*/
+/* animation right to left */
+.animaWrap {
+  overflow: hidden;
+}
+.animaRight {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform:  translateX(0%);;
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.animaPause:hover {
+  animation-play-state: paused;
+}
+
+
+/*----------------------------------------*/
+/* 3.Header CSS */
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/* 4.Home Page CSS */
+/*----------------------------------------*/
+.wrapper {
+  overflow: hidden;
+}
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+.marquee p {
+  display: inline-block;
+}
+.marquee div {
+  display: inline-block;
+}
+@keyframes marquee {
+  0% {
+    transform:  translateX(-50%);;
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+/*----------------------------------------*/
+/* 5.Resume Page CSS */
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/* 6.Portfolio Page CSS */
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/* 7.Services Page CSS */
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/* 8.Contact Page CSS */
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*Responsive CSS */
+/*----------------------------------------*/
+@media (max-width: 1440px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
+
+/*--------------------------------*/
+/* .End CSS
+/*--------------------------------*/
