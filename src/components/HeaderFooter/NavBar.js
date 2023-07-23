@@ -44,34 +44,34 @@ export default function NavBar() {
         };
     }, [openNav]);
 
-    const navigationLink = [
-        {
-            name: "Home",
-            menu: false,
-            linkNav: "/"
-        },
-    ];
+    // const navigationLink = [
+    //     {
+    //         name: "Home",
+    //         menu: false,
+    //         linkNav: "/"
+    //     },
+    // ];
 
-    const navList = (
-        <ul id="navLinksBar" className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-            {
-                navigationLink.map((navlink, nL) => {
-                    return <div key={nL}>
-                        <>
-                            <Typography
-                                as="li"
-                                className={router.pathname == navlink.linkNav ? "hover:text-[#009FCF] text-white active-link p-1 font-medium text-[16px]" : "hover:text-[#009FCF] in-active-link p-1 font-medium text-[16px]"}
-                            >
-                                <Link href={navlink.linkNav} className="flex items-center hover:text-[#009FCF] text-white">
-                                    {navlink.name}
-                                </Link>
-                            </Typography>
-                        </>
-                    </div>
-                })
-            }
-        </ul>
-    );
+    // const navList = (
+    //     <ul id="navLinksBar" className="flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+    //         {
+    //             navigationLink.map((navlink, nL) => {
+    //                 return <div key={nL}>
+    //                     <>
+    //                         <Typography
+    //                             as="li"
+    //                             className={router.pathname == navlink.linkNav ? "hover:text-[#009FCF] text-white active-link p-1 font-medium text-[16px]" : "hover:text-[#009FCF] in-active-link p-1 font-medium text-[16px]"}
+    //                         >
+    //                             <Link href={navlink.linkNav} className="flex items-center hover:text-[#009FCF] text-white">
+    //                                 {navlink.name}
+    //                             </Link>
+    //                         </Typography>
+    //                     </>
+    //                 </div>
+    //             })
+    //         }
+    //     </ul>
+    // );
 
 
 
@@ -79,7 +79,7 @@ export default function NavBar() {
     return (
         <>
             <div className="bg-[#000000] text-white w-[100%] z-[2000] shadow-md" style={{ position: "sticky", top: "0px", }} ref={ref}>
-                <nav className="max-w-screen-xl md:mx-auto py-2">
+                <nav className="max-w-screen-xl md:mx-auto py-4">
                     <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
                         <div className="w-[90px] sm:w-[120px] ml-4 md:ml-0 md:mr-4 box-border">
                             <Link href={"/"}>
@@ -88,7 +88,7 @@ export default function NavBar() {
                         </div>
                         <div className="flex items-center">
                             <div className="flex items-center mr-6 lg:mr-0">
-                                <div className="navLinksHidden mr-4">{navList}</div>
+                                {/* <div className="navLinksHidden mr-4">{navList}</div> */}
                                 <div className="flex text-center md:text-left text-white text-[14px]">
                                     <div
                                         className=" hover:bg-[#009FCF] bg-[#ffffff] text-[#000000] hover:text-[#ffffff] cursor-pointer flex items-center px-12 py-3 rounded-[50px]">
@@ -140,7 +140,7 @@ export default function NavBar() {
                     </div>
                     <Collapse open={openNav} className="px-4" >
                         <div className="container mx-auto mt-8 mb-4">
-                            <span onClick={() => setOpenNav(!openNav)}>{navList}</span>
+                            {/* <span onClick={() => setOpenNav(!openNav)}>{navList}</span> */}
                         </div>
                     </Collapse>
                 </nav>

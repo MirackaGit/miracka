@@ -27,7 +27,7 @@
 
 :root {
   --font: "Sora", sans-serif;
-  --yellow: #6C0045;
+  --yellow: #6c0045;
   --black: #0e0209;
   --drak-gray: #141113;
   --gray: #a29ea0;
@@ -137,7 +137,7 @@ h6 {
 }
 @keyframes marquee {
   0% {
-    transform:  translateX(0%);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-50%);
@@ -148,16 +148,18 @@ h6 {
 }
 
 /* bottom to top */
-.css-f013k0 {
+.css.f013k0 {
   list-style: none;
   margin-block-start: 0;
   margin-block-end: 0;
   -webkit-padding-start: 0;
   padding-inline-start: 0;
-  -webkit-animation: animation-s9x310 60s linear infinite;
-  animation: animation-s9x310 60s linear infinite;
 }
-@keyframes animation-s9x310 {
+.css-f013k0-1 {
+  -webkit-animation: animation-s9x310-1 60s linear infinite;
+  animation: animation-s9x310-1 60s linear infinite;
+}
+@keyframes animation-s9x310-1 {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -182,10 +184,10 @@ h6 {
 }
 @keyframes animation-s9x310-2 {
   0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 50px, 0);
+    -moz-transform: translate3d(0, 50px, 0);
+    -ms-transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 50px, 0);
   }
   100% {
     -webkit-transform: translate3d(0, -2152px, 0);
@@ -205,10 +207,10 @@ h6 {
 }
 @keyframes animation-s9x310-3 {
   0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 30px, 0);
+    -moz-transform: translate3d(0, 30px, 0);
+    -ms-transform: translate3d(0, 30px, 0);
+    transform: translate3d(0, 30px, 0);
   }
   100% {
     -webkit-transform: translate3d(0, -1552px, 0);
@@ -250,7 +252,7 @@ h6 {
 }
 @keyframes marquee {
   0% {
-    transform:  translateX(-50%);;
+    transform: translateX(-50%);
   }
   100% {
     transform: translateX(0%);

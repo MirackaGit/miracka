@@ -8,7 +8,7 @@ const OurServicesHp = () => {
     const services = [
         {
             name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            para: "Empowering businesses with innovative and customized technology solutions for seamless growth and success.",
             link: "",
             color: "#553185"
         },
@@ -134,12 +134,12 @@ const OurServicesHp = () => {
 
 
     return (
-        <div className='mt-20' data-aos="fade-up">
-            <div className='grid grid-cols-1 gap-4' data-aos="fade-up">
-                <div data-aos="fade-up">
-                    <h2 className="text-center" data-aos="fade-up">Our Services</h2>
+        <div className='mt-20'>
+            <div className='grid grid-cols-1 gap-4'>
+                <div>
+                    <h2 className="text-center">Our Services</h2>
                 </div>
-                <div data-aos="fade-up">
+                <div>
                     <Slider {...settings}>
                         {
                             services.map((service, index) => {
@@ -148,6 +148,7 @@ const OurServicesHp = () => {
                                         <div className='h-auto md:h-[400px] text-center py-12 px-6'
                                             style={{ backgroundColor: hoveredIndex === index ? service.color : '#F4F4F4' }}
                                             onMouseEnter={() => setHoveredIndex(index)}
+                                            onMouseOver={() => setHoveredIndex(index)}
                                             onMouseLeave={() => setHoveredIndex(-1)}
                                         >
                                             <div>
