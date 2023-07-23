@@ -21,9 +21,9 @@ const ContactUs = () => {
                         <div className='grid grid-cols-1 gap-4'>
                             <h3>Drop Us A Message</h3>
                             <h6>
-                                We're excited to work with you soon! Please drop an email with your details & requirements to miracka@miracka.com.
+                                We are excited to work with you soon! Please drop an email with your details & requirements to miracka@miracka.com.
                             </h6>
-                            <p>You can also fill this form & we'll get back in 1 business days.</p>
+                            <p>You can also fill this form & we will get back in 1 business days.</p>
                         </div>
                         <div>
                             <ContactUsForm />
