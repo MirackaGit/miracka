@@ -105,7 +105,7 @@ const ServicesAnimationHP = () => {
         },
     ]
     return (
-        <div className='max-w-screen-xl md:mx-auto overflow-hidden h-[740px]'>
+        <div className='max-w-screen-xl mx-auto overflow-hidden h-[740px] px-4 lg:px-0'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 <div>
                     <ServicesAnimationMap services={services} seriversClass={"css.f013k0 css-f013k0-1"}/>

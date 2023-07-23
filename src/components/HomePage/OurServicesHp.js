@@ -115,7 +115,7 @@ const OurServicesHp = () => {
                 },
             },
             {
-                breakpoint: 600,
+                breakpoint: 900,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -124,7 +124,7 @@ const OurServicesHp = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     autoplaySpeed: 3000,
                 },
@@ -134,7 +134,7 @@ const OurServicesHp = () => {
 
 
     return (
-        <div className='mt-20'>
+        <div className='mt-10 md:mt-20'>
             <div className='grid grid-cols-1 gap-4'>
                 <div>
                     <h2 className="text-center">Our Services</h2>
@@ -145,7 +145,7 @@ const OurServicesHp = () => {
                             services.map((service, index) => {
                                 return (
                                     <div key={index} className='group'>
-                                        <div className='h-auto md:h-[400px] text-center py-12 px-6'
+                                        <div className='h-[400px] text-center py-12 px-6'
                                             style={{ backgroundColor: hoveredIndex === index ? service.color : '#F4F4F4' }}
                                             onMouseEnter={() => setHoveredIndex(index)}
                                             onMouseOver={() => setHoveredIndex(index)}

@@ -63,20 +63,20 @@ const HearfromourclientsHP = () => {
     ]
     return (
         <div>
-            <div className='max-w-screen-xl md:mx-auto px-4 py-6'>
+            <div className='max-w-screen-xl mx-auto px-4 lg:px-0 py-6'>
                 <div className='flex flex-col md:flex-row items-center gap-8'>
                     <div className='w-[100%] md:w-[25%]'>
                         <h2 className="text-center">Hear from our clients</h2>
                     </div>
                     <div className='w-[100%] md:w-[75%] grid grid-cols-1 gap-4'>
-                        <div className='ml-6'>
+                        <div className='ml-2 md:ml-6 w-[40px] md:w-[60px]'>
                             <Image src={reviewbg} alt='review' width={"100%"} height={"auto"} />
                         </div>
                         <Slider {...settings}>
                             {
                                 reviews.map((review, r) => {
                                     return (
-                                        <div key={r} className='px-6'>
+                                        <div key={r} className='px-2 md:px-6'>
                                             <div>
                                                 <p className='text-justify'>{review.para}</p>
                                             </div>

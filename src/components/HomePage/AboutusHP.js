@@ -11,17 +11,17 @@ const AboutusHP = () => {
                 <Image src={aboutHP} alt='about hp' width={"100%"} height={"auto"} />
             </div>
             <div>
-                <div className='max-w-screen-xl md:mx-auto px-4 -mt-20'>
-                    <div className='flex flex-col md:flex-row items-center gap-8'>
+                <div className='max-w-screen-xl mx-auto px-4 lg:px-0 md:-mt-20'>
+                    <div className='flex flex-col md:flex-row items-center gap-4 md:gap-8'>
                         <div className='w-[100%] md:w-[25%]'>
                             <h2 className="text-center">About us</h2>
                         </div>
                         <div className='w-[100%] md:w-[75%] grid grid-cols-1 gap-4'>
                             <h4>Miracka Marketing & IT Agency offers seamless digital marketing and IT solutions</h4>
-                            <p>
+                            <p className='text-justify'>
                                 At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company, we make it a priority to recognise the objectives of each client business.
                             </p>
-                            <p>
+                            <p className='text-justify'>
                                 We think that it is obsolete to have a brand new website that does not assist you in achieving your objectives. Hence, we create our business objectives keeping this in mind.
                             </p>
                             <div>

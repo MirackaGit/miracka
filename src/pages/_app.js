@@ -14,6 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 // components
 import NavBar from '@/components/HeaderFooter/NavBar';
+import Footer from '@/components/HeaderFooter/Footer';
 
 
 export default function App({ Component, pageProps }) {
@@ -26,7 +27,12 @@ export default function App({ Component, pageProps }) {
     <>
       <ThemeProvider>
         <NavBar />
-        <Component {...pageProps} />
+        <div className='bg-[#ffffff] z-10 rounded-b-[50px]'>
+          <Component {...pageProps} />
+        </div>
+        <div className='sticky bottom-0 -z-10 h-[60vh]'>
+          <Footer />
+        </div>
       </ThemeProvider>
     </>
   )

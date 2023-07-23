@@ -12,7 +12,7 @@ const TeamHP = () => {
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
         }}>
-            <div className='max-w-screen-xl md:mx-auto mt-6'>
+            <div className='max-w-screen-xl mx-auto mt-6 px-4 lg:px-0'>
                 <div className='grid grid-cols-1 gap-2'>
                     <div className='w-[170px] mx-auto'>
                         <Image src={sudarshan} alt='founder' className='rounded-[50%] mx-auto' width={"100%"} height={"auto"} />

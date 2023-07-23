@@ -17,7 +17,6 @@ const Home = () => {
       <TeamHP />
       <ClientsHP />
       <HearfromourclientsHP />
-      <div className='mt-96'></div>
     </div>
   )
 }

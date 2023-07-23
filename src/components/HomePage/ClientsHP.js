@@ -47,14 +47,14 @@ const ClientsHP = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2.5,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                 },
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1.5,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     autoplaySpeed: 3000,
                 },
@@ -64,7 +64,7 @@ const ClientsHP = () => {
 
 
     return (
-        <div className='max-w-screen-xl md:mx-auto my-6'>
+        <div className='max-w-screen-xl mx-auto my-6 px-4 lg:px-0'>
             <div className='grid grid-cols-1 gap-4'>
                 <div>
                     <h2 className="text-center">Our Clients</h2>
