@@ -90,13 +90,13 @@ export default function NavBar() {
                             <div className="flex items-center mr-6 lg:mr-0">
                                 {/* <div className="navLinksHidden mr-4">{navList}</div> */}
                                 <div className="flex text-center md:text-left text-white text-[14px]">
-                                    <div
+                                    <Link href={"/contact-us"}
                                         className=" hover:bg-[#009FCF] bg-[#ffffff] text-[#000000] hover:text-[#ffffff] cursor-pointer flex items-center px-12 py-3 rounded-[50px]">
                                         Contact Us
                                         <div>
                                             <BsArrowRight className="mr-[2px] w-[14px] sm:w-[20px] h-[14px] sm:h-[20px] mx-2" />
                                         </div>
-                                    </div>
+                                    </Link>
                                 </div>
                             </div>
                             <IconButton
