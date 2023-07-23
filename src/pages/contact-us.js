@@ -1,12 +1,11 @@
 import ContactUsForm from '@/components/ContactUsPage/ContactUsForm';
 import React from 'react';
+import Image from 'next/image';
 
 // images
-import img1 from "../asstes/contactus/1.jpg"
-import img2 from "../asstes/contactus/2.png"
-import img3 from "../asstes/contactus/3.jpg"
-import img4 from "../asstes/contactus/4.jpg"
-import Image from 'next/image';
+import img1 from "../asstes/contactus/1.webp"
+import img2 from "../asstes/contactus/2.webp"
+
 
 
 const ContactUs = () => {
