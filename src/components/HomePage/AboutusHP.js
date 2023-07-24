@@ -7,8 +7,10 @@ import Link from 'next/link'
 const AboutusHP = () => {
     return (
         <div className='bg-[#F4F4F4] pb-12'>
-            <div className='w-[100%] hidden md:bolck'>
-                <Image src={aboutHP} alt='about hp' width={"100%"} height={"auto"} />
+            <div className='hidden md:block'>
+                <div className='w-[100%]'>
+                    <Image src={aboutHP} alt='about hp' width={"100%"} height={"auto"} />
+                </div>
             </div>
             <div>
                 <div className='max-w-screen-xl mx-auto px-4 lg:px-0 md:-mt-20 pt-6 md:pt-0'>
