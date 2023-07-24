@@ -41,14 +41,14 @@ const Footer = () => {
     ]
 
     return (
-        <div className='bg-drak-gray py-12 h-[100%] w-[100%]'>
-            <div className='max-w-screen-xl mx-auto px-4 lg:px-0 gap-12'>
-                <div className='w-[100%] mb-12'>
-                    <Image src={headerLogo} alt='Miracka logo' width={"auto"} height={"100%"} className='w-auto md:w-[400px] mx-auto'/>
+        <div className='bg-drak-gray pb-12 pt-24 h-[100%] w-[100%]'>
+            <div className='max-w-screen-xl mx-auto px-4 lg:px-0 gap-6'>
+                <div className='w-[100%]'>
+                    <Image src={headerLogo} alt='Miracka logo' width={"auto"} height={"100%"}/>
                 </div>
                 <hr className='my-4'/>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-6 items-center'>
-                    <div className='flex justify-between md:justify-start gap-6 lg:gap-12'>
+                    <div className='flex  md:justify-start gap-12'>
                         {
                             socialmedias.map((socialmedia, s) => {
                                 return (
@@ -63,7 +63,7 @@ const Footer = () => {
                             })
                         }
                     </div>
-                    <div className='flex justify-center gap-6 mt-6 md:mt-0'>
+                    <div className='flex md:justify-center gap-6 my-4 md:my-0'>
                         {
                             quickLinks.map((quickLink, q) => {
                                 return (
@@ -74,7 +74,7 @@ const Footer = () => {
                             })
                         }
                     </div>
-                    <div className='text-center md:text-right text-[14px]'>
+                    <div className='text-left md:text-right text-[14px]'>
                         <p>Copyright © {new Date().getFullYear()} Miracka.</p>
                         <p>All Rights Reserved</p>
                     </div>

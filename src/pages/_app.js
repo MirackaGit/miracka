@@ -27,10 +27,10 @@ export default function App({ Component, pageProps }) {
     <>
       <ThemeProvider>
         <NavBar />
-        <div className='bg-[#ffffff] z-10 rounded-b-[50px]'>
+        <div className='bg-[#ffffff] z-10 rounded-b-[25px] md:rounded-b-[50px]'>
           <Component {...pageProps} />
         </div>
-        <div className='sticky bottom-0 -z-10 h-[60vh]'>
+        <div className='sticky bottom-0 -z-10'>
           <Footer />
         </div>
       </ThemeProvider>

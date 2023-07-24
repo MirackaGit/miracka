@@ -79,70 +79,23 @@ export default function NavBar() {
     return (
         <>
             <div className="bg-[#000000] text-white w-[100%] z-[2000] shadow-md" style={{ position: "sticky", top: "0px", }} ref={ref}>
-                <nav className="max-w-screen-xl md:mx-auto py-4">
+                <nav className="max-w-screen-xl md:mx-auto py-4 px-4">
                     <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-                        <div className="w-[90px] sm:w-[120px] ml-4 md:ml-0 md:mr-4 box-border">
+                        <div className="w-[120px] box-border">
                             <Link href={"/"}>
                                 <Image src={logo} alt="Mircaka" width={"auto"} height="auto" />
                             </Link>
                         </div>
-                        <div className="flex items-center">
-                            <div className="flex items-center mr-6 lg:mr-0">
-                                {/* <div className="navLinksHidden mr-4">{navList}</div> */}
-                                <div className="flex text-center md:text-left text-white text-[14px]">
-                                    <Link href={"/contact-us"}
-                                        className=" hover:bg-[#009FCF] bg-[#ffffff] text-[#000000] hover:text-[#ffffff] cursor-pointer flex items-center px-12 py-3 rounded-[50px]">
-                                        Contact Us
-                                        <div>
-                                            <BsArrowRight className="mr-[2px] w-[14px] sm:w-[20px] h-[14px] sm:h-[20px] mx-2" />
-                                        </div>
-                                    </Link>
+                        <div className="text-center md:text-left text-white text-[12px] md:text-[14px]">
+                            <Link href={"/contact-us"}
+                                className=" hover:bg-[#009FCF] bg-[#ffffff] text-[#000000] hover:text-[#ffffff] cursor-pointer flex items-center px-4 md:px-12 py-2 md:py-3 rounded-[50px]">
+                                Contact Us
+                                <div>
+                                    <BsArrowRight className="mr-[2px] w-[14px] sm:w-[20px] h-[14px] sm:h-[20px] mx-2" />
                                 </div>
-                            </div>
-                            <IconButton
-                                variant="text"
-                                className="mr-4 ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
-                                ripple={false}
-                                onClick={() => setOpenNav(!openNav)}
-                            >
-                                {openNav ? (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        className="h-6 w-6"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                        strokeWidth={2}
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M6 18L18 6M6 6l12 12"
-                                        />
-                                    </svg>
-                                ) : (
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="h-6 w-6"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth={2}
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            d="M4 6h16M4 12h16M4 18h16"
-                                        />
-                                    </svg>
-                                )}
-                            </IconButton>
+                            </Link>
                         </div>
                     </div>
-                    <Collapse open={openNav} className="px-4" >
-                        <div className="container mx-auto mt-8 mb-4">
-                            {/* <span onClick={() => setOpenNav(!openNav)}>{navList}</span> */}
-                        </div>
-                    </Collapse>
                 </nav>
             </div>
 

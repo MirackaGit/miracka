@@ -7,14 +7,14 @@ import Link from 'next/link'
 const AboutusHP = () => {
     return (
         <div className='bg-[#F4F4F4] pb-12'>
-            <div className='w-[100%]'>
+            <div className='w-[100%] hidden md:bolck'>
                 <Image src={aboutHP} alt='about hp' width={"100%"} height={"auto"} />
             </div>
             <div>
-                <div className='max-w-screen-xl mx-auto px-4 lg:px-0 md:-mt-20'>
+                <div className='max-w-screen-xl mx-auto px-4 lg:px-0 md:-mt-20 pt-6 md:pt-0'>
                     <div className='flex flex-col md:flex-row items-center gap-4 md:gap-8'>
                         <div className='w-[100%] md:w-[25%]'>
-                            <h2 className="text-center">About us</h2>
+                            <h2 className="md:text-center">About us</h2>
                         </div>
                         <div className='w-[100%] md:w-[75%] grid grid-cols-1 gap-4'>
                             <h4>Miracka Marketing & IT Agency offers seamless digital marketing and IT solutions</h4>
