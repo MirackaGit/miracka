@@ -24,7 +24,7 @@ const AboutusHP = () => {
                                 Through unique digital strategies, Miracka finds inefficiencies to maximise revenue. To create your unique strategy, we evaluate the process by conducting multiple A/B testing in order to achieve the best outcome.
                             </p>
                             <p className='text-justify'>
-                                Thus, we assure you in providing in- depth marketing services for every level of your business and at every pivotal point in your customers' journey.
+                                Thus, we assure you in providing in- depth marketing services for every level of your business and at every pivotal point in your customers&lsquo; journey.
                                 Additionally, our IT specialists assist in finding the best IT solution for your business, guaranteeing a hassle-free experience for you.
                             </p>
                             <div>
