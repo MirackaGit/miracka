@@ -19,15 +19,16 @@ const AboutusHP = () => {
                             <h2 className="md:text-center">About us</h2>
                         </div>
                         <div className='w-[100%] md:w-[75%] grid grid-cols-1 gap-4'>
-                            <h4>Miracka Marketing & IT Agency offers seamless digital marketing and IT solutions</h4>
+                            <h4>We are always open and honest when it comes to business. As we know, foundation of a successful relationship stands on transparency</h4>
                             <p className='text-justify'>
-                                At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company, we make it a priority to recognise the objectives of each client business.
+                                Through unique digital strategies, Miracka finds inefficiencies to maximise revenue. To create your unique strategy, we evaluate the process by conducting multiple A/B testing in order to achieve the best outcome.
                             </p>
                             <p className='text-justify'>
-                                We think that it is obsolete to have a brand new website that does not assist you in achieving your objectives. Hence, we create our business objectives keeping this in mind.
+                                Thus, we assure you in providing in- depth marketing services for every level of your business and at every pivotal point in your customers' journey.
+                                Additionally, our IT specialists assist in finding the best IT solution for your business, guaranteeing a hassle-free experience for you.
                             </p>
                             <div>
-                                <Link href={"#"} className='inline-block px-12 py-4 drop-shadow-2xl rounded-[50px] text-[#ffffff] bg-[#0e0209]' >Know More</Link>
+                                <Link href={"/contact-us"} className='inline-block px-4 py-2 md:px-12 md:py-3 drop-shadow-2xl rounded-[50px] text-[#ffffff] bg-[#0e0209] cursor-pointer ' >Know More</Link>
                             </div>
                         </div>
                     </div>

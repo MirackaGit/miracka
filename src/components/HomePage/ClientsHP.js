@@ -64,7 +64,7 @@ const ClientsHP = () => {
 
 
     return (
-        <div className='max-w-screen-xl mx-auto my-6 px-4 lg:px-0'>
+        <div className='max-w-screen-xl mx-auto py-12 px-4 lg:px-0'>
             <div className='grid grid-cols-1 gap-4'>
                 <div>
                     <h2 className="text-center">Our Clients</h2>

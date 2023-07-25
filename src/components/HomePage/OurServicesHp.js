@@ -48,113 +48,125 @@ const OurServicesHp = () => {
 
     const services = [
         {
-            name: "Teach Solution",
-            para: "Empowering businesses with innovative and customized technology solutions for seamless growth and success.",
+            name: "Branding Solutions",
+            para: "A complete strategy for defining and strengthening your brand identity is provided by branding solutions. ",
             link: "",
             color: "#553185"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Media Solutions",
+            para: "Discover the Full Potential of Your Website with Cutting-Edge Media Solutions Media buying",
             link: "",
             color: "#6C0045"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Technology Solutions",
+            para: "Empowering businesses with innovative and customised technology solutions for seamless growth and success.",
             link: "",
             color: "#6D2576"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Photography",
+            para: "We believe that every moment tells a unique and beautiful story.",
             link: "",
             color: "#4C3B8B"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Mobile App Solutions",
+            para: "Mobile app services have emerged as a key element of this transformation, making it easier to create, launch, and maintain cutting-edge and streamlined apps.",
             link: "",
             color: "#23489B"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
-            link: "",
-            color: "#0E73B4"
-        },
-        {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
-            link: "",
-            color: "#00A2D0"
-        },
-        {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Branding Solutions",
+            para: "A complete strategy for defining and strengthening your brand identity is provided by branding solutions. ",
             link: "",
             color: "#553185"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Media Solutions",
+            para: "Discover the Full Potential of Your Website with Cutting-Edge Media Solutions Media buying",
             link: "",
             color: "#6C0045"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Technology Solutions",
+            para: "Empowering businesses with innovative and customised technology solutions for seamless growth and success.",
             link: "",
             color: "#6D2576"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Photography",
+            para: "We believe that every moment tells a unique and beautiful story.",
             link: "",
-            color: "#4C3B8B"
+            color: "#00A2D0"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
-            link: "",
-            color: "#23489B"
-        },
-        {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Mobile App Solutions",
+            para: "Mobile app services have emerged as a key element of this transformation, making it easier to create, launch, and maintain cutting-edge and streamlined apps.",
             link: "",
             color: "#0E73B4"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Branding Solutions",
+            para: "A complete strategy for defining and strengthening your brand identity is provided by branding solutions. ",
+            link: "",
+            color: "#553185"
+        },
+        {
+            name: "Media Solutions",
+            para: "Discover the Full Potential of Your Website with Cutting-Edge Media Solutions Media buying",
+            link: "",
+            color: "#6C0045"
+        },
+        {
+            name: "Technology Solutions",
+            para: "Empowering businesses with innovative and customised technology solutions for seamless growth and success.",
+            link: "",
+            color: "#6D2576"
+        },
+        {
+            name: "Photography",
+            para: "We believe that every moment tells a unique and beautiful story.",
             link: "",
             color: "#00A2D0"
+        },
+        {
+            name: "Mobile App Solutions",
+            para: "Mobile app services have emerged as a key element of this transformation, making it easier to create, launch, and maintain cutting-edge and streamlined apps.",
+            link: "",
+            color: "#0E73B4"
         },
     ]
 
     const mobileServices = [
         {
-            name: "Teach Solution",
-            para: "Empowering businesses with innovative and customized technology solutions for seamless growth and success.",
+            name: "Branding Solutions",
+            para: "A complete strategy for defining and strengthening your brand identity is provided by branding solutions. ",
             link: "",
             color: "#553185"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Media Solutions",
+            para: "Discover the Full Potential of Your Website with Cutting-Edge Media Solutions Media buying",
             link: "",
             color: "#6C0045"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Technology Solutions",
+            para: "Empowering businesses with innovative and customised technology solutions for seamless growth and success.",
             link: "",
             color: "#6D2576"
         },
         {
-            name: "Teach Solution",
-            para: "At Miracka, we believe in providing peerless creative solutions in order to assist each client flourish in their business. As a digital marketing company.",
+            name: "Photography",
+            para: "We believe that every moment tells a unique and beautiful story.",
+            link: "",
+            color: "#4C3B8B"
+        },
+        {
+            name: "Mobile App Solutions",
+            para: "Mobile app services have emerged as a key element of this transformation, making it easier to create, launch, and maintain cutting-edge and streamlined apps.",
             link: "",
             color: "#4C3B8B"
         },
@@ -187,7 +199,7 @@ const OurServicesHp = () => {
                                             <div className='mt-6'>
                                                 <p className='text-[#a29ea0] group-hover:text-[#fff9fd]'>{service.para}</p>
                                             </div>
-                                            <Link href={service.link} className='hidden group-hover:inline-block mt-4 px-10 py-4 drop-shadow-2xl rounded-[50px] bg-[#ffffff] text-[#0e0209]' >Know More</Link>
+                                            <Link href={"/contact-us"} className='hidden group-hover:inline-block mt-4 px-10 py-4 drop-shadow-2xl rounded-[50px] bg-[#ffffff] text-[#0e0209]' >Know More</Link>
                                         </div>
                                     </div>
                                 )
@@ -206,7 +218,7 @@ const OurServicesHp = () => {
                                     <div className='mt-2'>
                                         <p className=''>{mobileService.para}</p>
                                     </div>
-                                    <Link href={mobileService.link} className='inline-block mt-4 px-8 py-2 drop-shadow-2xl rounded-[50px] bg-[#0e0209] text-[#ffffff]' >
+                                    <Link href={"/contact-us"} className='inline-block mt-4 px-8 py-2  drop-shadow-2xl rounded-[50px] bg-[#0e0209] text-[#ffffff]' >
                                         <div>
                                             <BsArrowRight className="w-[20px] h-[20px]" />
                                         </div>

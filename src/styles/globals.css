@@ -156,57 +156,57 @@ h6 {
   padding-inline-start: 0;
 }
 .css-f013k0-1 {
-  -webkit-animation: animation-s9x310-1 60s linear infinite;
-  animation: animation-s9x310-1 60s linear infinite;
+  -webkit-animation: animation-s9x310-1 80s linear infinite;
+  animation: animation-s9x310-1 80s linear infinite;
 }
 @keyframes animation-s9x310-1 {
   0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    transform: translatey(0%);
+    -webkit-transform: translatey(0%);
+    -moz-transform: translatey(0%);
+    -ms-transform: translatey(0%);
   }
   100% {
-    -webkit-transform: translate3d(0, -2452px, 0);
-    -moz-transform: translate3d(0, -2452px, 0);
-    -ms-transform: translate3d(0, -2452px, 0);
-    transform: translate3d(0, -2452px, 0);
+    transform: translatey(-92%);
+    -webkit-transform: translatey(-92%);
+    -moz-transform: translatey(-92%);
+    -ms-transform: translatey(-92%);
   }
 }
 .css-f013k0-2 {
-  -webkit-animation: animation-s9x310-2 50s linear infinite;
-  animation: animation-s9x310-2 50s linear infinite;
+  -webkit-animation: animation-s9x310-2 70s linear infinite;
+  animation: animation-s9x310-2 70s linear infinite;
 }
 @keyframes animation-s9x310-2 {
   0% {
-    -webkit-transform: translate3d(0, 50px, 0);
-    -moz-transform: translate3d(0, 50px, 0);
-    -ms-transform: translate3d(0, 50px, 0);
-    transform: translate3d(0, 50px, 0);
+    transform: translatey(2%);
+    -webkit-transform: translatey(2%);
+    -moz-transform: translatey(2%);
+    -ms-transform: translatey(2%);
   }
   100% {
-    -webkit-transform: translate3d(0, -2152px, 0);
-    -moz-transform: translate3d(0, -2152px, 0);
-    -ms-transform: translate3d(0, -2152px, 0);
-    transform: translate3d(0, -2152px, 0);
+    transform: translatey(-92%);
+    -webkit-transform: translatey(-92%);
+    -moz-transform: translatey(-92%);
+    -ms-transform: translatey(-92%);
   }
 }
 .css-f013k0-3 {
-  -webkit-animation: animation-s9x310-3 40s linear infinite;
-  animation: animation-s9x310-3 40s linear infinite;
+  -webkit-animation: animation-s9x310-3 90s linear infinite;
+  animation: animation-s9x310-3 90s linear infinite;
 }
 @keyframes animation-s9x310-3 {
   0% {
-    -webkit-transform: translate3d(0, 30px, 0);
-    -moz-transform: translate3d(0, 30px, 0);
-    -ms-transform: translate3d(0, 30px, 0);
-    transform: translate3d(0, 30px, 0);
+    transform: translatey(4%);
+    -webkit-transform: translatey(4%);
+    -moz-transform: translatey(4%);
+    -ms-transform: translatey(4%);
   }
   100% {
-    -webkit-transform: translate3d(0, -1552px, 0);
-    -moz-transform: translate3d(0, -1552px, 0);
-    -ms-transform: translate3d(0, -1552px, 0);
-    transform: translate3d(0, -1552px, 0);
+    transform: translatey(-92%);
+    -webkit-transform: translatey(-92%);
+    -moz-transform: translatey(-92%);
+    -ms-transform: translatey(-92%);
   }
 }
 

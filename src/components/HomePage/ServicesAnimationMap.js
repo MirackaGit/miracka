@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 
-const ServicesAnimationMap = ({ services,seriversClass }) => {
+const ServicesAnimationMap = ({ services, seriversClass }) => {
     const [hoveredIndex, setHoveredIndex] = React.useState(-1);
     return (
         <>
@@ -15,15 +16,17 @@ const ServicesAnimationMap = ({ services,seriversClass }) => {
                                     onMouseEnter={() => setHoveredIndex(sa)}
                                     onMouseLeave={() => setHoveredIndex(-1)}
                                 >
-                                    <div>
-                                        <h4 className='text-20px md:text-28px text-[#a29ea0] group-hover:text-[#ffffff]'>{servicAna.name}</h4>
-                                    </div>
-                                    <div>
-                                        <h6 className='text-[#a29ea0] group-hover:text-[#ffffff]'>{servicAna.subName}</h6>
-                                    </div>
-                                    <div className='w-[100%] my-4'>
-                                        <Image src={servicAna.img} alt={servicAna.name} width={"auto"} height={"100%"} />
-                                    </div>
+                                    <Link href={"/contact-us"} >
+                                        <div>
+                                            <h4 className='text-20px md:text-28px text-[#a29ea0] group-hover:text-[#ffffff]'>{servicAna.name}</h4>
+                                        </div>
+                                        <div>
+                                            <h6 className='text-[#a29ea0] group-hover:text-[#ffffff]'>{servicAna.subName}</h6>
+                                        </div>
+                                        <div className='w-[100%] my-4'>
+                                            <Image src={servicAna.img} alt={servicAna.name} width={"auto"} height={"100%"} />
+                                        </div>
+                                    </Link>
                                 </li>
                             )
                         })

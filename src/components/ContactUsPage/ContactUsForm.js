@@ -78,7 +78,8 @@ export default function ContactUsForm() {
     }
 
     const services = [
-        "Social Media", "Content Creation", "Gaming", "Applications", "Web Development", "SEO", "Digital Markting", "Email & SMS Marketing Automation"
+        "Graphic Designing", "Website Development", "UI/UX", "Wordpress Websites", "Social Media Ads", "Social Media Marketing", "Re-Branding Solutions", "Video Editing & Animations",
+        "Email Marketing","Bulk Messaging","Photography & Video Shoot","Mobile Application Solutions","ERP Solutions","Sales & Marketing"
     ]
 
     return (
@@ -124,11 +125,11 @@ export default function ContactUsForm() {
                 </div>
                 <div className="my-4 grid grid-cols-1 gap-4">
                     <h6>Which services are you interested in?</h6>
-                    <div className="flex flex-wrap flex-row gap-2">
+                    <div className="flex flex-wrap flex-row gap-4 md:gap-2">
                         {
                             services.map((service, s) => {
                                 return <div key={s}
-                                    className="px-4 py-2 border-[2px] border-[#aaaaaa] inline-block rounded-[50px]"
+                                    className="cursor-pointer px-2 py-1.5 md:px-4 md:py-2 border-[2px] border-[#aaaaaa] inline-block rounded-[50px]"
                                     onClick={() => {
                                         setServiceIntersted(service)
                                     }}

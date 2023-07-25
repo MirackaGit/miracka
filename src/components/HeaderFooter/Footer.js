@@ -17,31 +17,31 @@ const Footer = () => {
         },
         {
             name: "Contact Us",
-            link: "/contactus"
+            link: "/contact-us"
         },
     ]
 
     const socialmedias = [
         {
             icons: FaFacebook,
-            link: "#"
+            link: "https://www.facebook.com/profile.php?id=100080027118904&mibextid=ZbWKwL"
         },
         {
             icons: FaLinkedinIn,
-            link: "#"
+            link: "https://www.linkedin.com/in/miracka-miracka-11a758242/"
         },
         {
             icons: AiFillInstagram,
-            link: "#"
+            link: "https://www.instagram.com/miracka_official/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
         },
         {
             icons: FaTwitter,
-            link: "#"
+            link: "https://twitter.com/Miracka_miracka"
         },
     ]
 
     return (
-        <div className='bg-drak-gray pb-12 pt-24 h-[100%] w-[100%]'>
+        <div className='bg-drak-gray pb-12 pt-12 h-[100%] w-[100%]'>
             <div className='max-w-screen-xl mx-auto px-4 lg:px-0 gap-6'>
                 <div className='w-[100%]'>
                     <Image src={headerLogo} alt='Miracka logo' width={"auto"} height={"100%"}/>
@@ -53,7 +53,7 @@ const Footer = () => {
                             socialmedias.map((socialmedia, s) => {
                                 return (
                                     <div key={s}>
-                                        <Link href={socialmedia.link}>
+                                        <Link href={socialmedia.link} target='_blank'>
                                             <div>
                                                 <socialmedia.icons className='w-[24px] h-[24px] white-cl' />
                                             </div>
@@ -63,6 +63,7 @@ const Footer = () => {
                             })
                         }
                     </div>
+                    {/* cursor-pointer	 */}
                     <div className='flex md:justify-center gap-6 my-4 md:my-0'>
                         {
                             quickLinks.map((quickLink, q) => {
