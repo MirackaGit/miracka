@@ -20,7 +20,7 @@ const ContactUs = () => {
                     <div className='w-[100%] md:w-[60%]'>
                         <div className='grid grid-cols-1 gap-4'>
                             <h3>Have a Project in Mind?</h3>
-                            <h6>
+                            <h6 className='md:w-[60%]'>
                                 Please fill in the form we will get back to you within 1 business days
                             </h6>
                         </div>

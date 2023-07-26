@@ -30,15 +30,15 @@
   --yellow: #6c0045;
   --black: #0e0209;
   --drak-gray: #141113;
-  --gray: #a29ea0;
+  --gray: #6e6e6e;
   --white: #fff9fd;
-  --para-color: #aaaaaa;
+  --para-color: #6e6e6e;
 }
 
 * {
   font-family: var(--font) !important;
   box-sizing: border-box;
-  transition: all 0.2s ease;
+  transition: all 0.2s linear;
 }
 
 body {
@@ -90,36 +90,43 @@ p {
   font-size: 18px;
   font-weight: 400;
   color: var(--para-color);
+  line-height: 1.5;
 }
 h1 {
   font-size: 46px;
   font-weight: 800;
   color: var(--black);
+  line-height: 1.5;
 }
 h2 {
   font-size: 38px;
   font-weight: 800;
   color: var(--black);
+  line-height: 1.5;
 }
 h3 {
   font-size: 32px;
   font-weight: 800;
   color: var(--black);
+  line-height: 1.5;
 }
 h4 {
   font-size: 28px;
   font-weight: 700;
   color: var(--black);
+  line-height: 1.5;
 }
 h5 {
   font-size: 24px;
   font-weight: 600;
   color: var(--black);
+  line-height: 1.5;
 }
 h6 {
   font-size: 20px;
   font-weight: 500;
   color: var(--black);
+  line-height: 1.5;
 }
 
 /*----------------------------------------*/
@@ -260,9 +267,25 @@ h6 {
 /*----------------------------------------*/
 
 /*----------------------------------------*/
-/* 8.Contact Page CSS */
+/* 8.Footer CSS */
 /*----------------------------------------*/
-
+.social-media-links:hover{
+  animation: bounce 1s linear;
+}
+@keyframes bounce {
+  20%,50%,80%,to{
+      transform: translateY(0);
+  }
+  40%{
+      transform: translateY(-30%);
+  }
+  70%{
+      transform: translateY(-15%);
+  }
+  90%{
+      transform: translateY(-4%);
+  }
+}
 /*----------------------------------------*/
 /*Responsive CSS */
 /*----------------------------------------*/

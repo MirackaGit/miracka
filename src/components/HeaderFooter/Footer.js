@@ -55,7 +55,7 @@ const Footer = () => {
                                     <div key={s}>
                                         <Link href={socialmedia.link} target='_blank'>
                                             <div>
-                                                <socialmedia.icons className='w-[24px] h-[24px] white-cl' />
+                                                <socialmedia.icons className='hover:text-[#00A2D0] w-[24px] h-[24px] white-cl social-media-links' />
                                             </div>
                                         </Link>
                                     </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                             quickLinks.map((quickLink, q) => {
                                 return (
                                     <div key={q}>
-                                        <Link href={quickLink.link} className='white-cl'>{quickLink.name}</Link>
+                                        <Link href={quickLink.link} className='white-cl hover:text-[#00A2D0]'>{quickLink.name}</Link>
                                     </div>
                                 )
                             })

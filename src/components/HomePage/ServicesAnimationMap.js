@@ -18,10 +18,10 @@ const ServicesAnimationMap = ({ services, seriversClass }) => {
                                 >
                                     <Link href={"/contact-us"} >
                                         <div>
-                                            <h4 className='text-20px md:text-28px text-[#a29ea0] group-hover:text-[#ffffff]'>{servicAna.name}</h4>
+                                            <h4 className='text-20px md:text-28px text-[#6e6e6e] group-hover:text-[#ffffff]'>{servicAna.name}</h4>
                                         </div>
                                         <div>
-                                            <h6 className='text-[#a29ea0] group-hover:text-[#ffffff]'>{servicAna.subName}</h6>
+                                            <h6 className='text-[#6e6e6e] group-hover:text-[#ffffff]'>{servicAna.subName}</h6>
                                         </div>
                                         <div className='w-[100%] my-4'>
                                             <Image src={servicAna.img} alt={servicAna.name} width={"auto"} height={"100%"} />

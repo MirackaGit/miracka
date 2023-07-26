@@ -194,10 +194,10 @@ const OurServicesHp = () => {
                                             onMouseLeave={() => setHoveredIndex(-1)}
                                         >
                                             <div>
-                                                <h3 className='text-[#a29ea0] group-hover:text-[#fff9fd]'>{service.name}</h3>
+                                                <h3 className='text-[#6e6e6e] group-hover:text-[#fff9fd]'>{service.name}</h3>
                                             </div>
                                             <div className='mt-6'>
-                                                <p className='text-[#a29ea0] group-hover:text-[#fff9fd]'>{service.para}</p>
+                                                <p className='group-hover:text-[#fff9fd]'>{service.para}</p>
                                             </div>
                                             <Link href={"/contact-us"} className='hidden group-hover:inline-block mt-4 px-10 py-4 drop-shadow-2xl rounded-[50px] bg-[#ffffff] text-[#0e0209]' >Know More</Link>
                                         </div>
