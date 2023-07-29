@@ -3,6 +3,22 @@ import React from 'react'
 // iamges 
 import appDesign from "../../asstes/homePage/servies/appDesign.png"
 import gd from "../../asstes/homePage/servies/gd.png"
+import Animations from "../../asstes/homePage/servies/Animations.png"
+import App from "../../asstes/homePage/servies/App.png"
+import dynamic from "../../asstes/homePage/servies/dynamic.png"
+import Business from "../../asstes/homePage/servies/Business.png"
+import Content from "../../asstes/homePage/servies/Content.png"
+import contentMarketing from "../../asstes/homePage/servies/contentMarketing.png"
+import Ecommerce from "../../asstes/homePage/servies/E-commerce.png"
+import Marketing from "../../asstes/homePage/servies/Marketing.png"
+import Mobile from "../../asstes/homePage/servies/Mobile.png"
+import Photography from "../../asstes/homePage/servies/Photography.png"
+import Revamping from "../../asstes/homePage/servies/Revamping.png"
+import seo from "../../asstes/homePage/servies/seo.png"
+import Shopify from "../../asstes/homePage/servies/Shopify.png"
+import UIUX from "../../asstes/homePage/servies/UIUX.png"
+import Website from "../../asstes/homePage/servies/Website.png"
+import WordPress from "../../asstes/homePage/servies/WordPress.png"
 import ServicesAnimationMap from './ServicesAnimationMap'
 
 const ServicesAnimationHP = () => {
@@ -10,37 +26,37 @@ const ServicesAnimationHP = () => {
         {
             name: "Graphic",
             subName: "Designing",
-            img: appDesign,
+            img: gd,
             color: "#6D1D6C"
         },
         {
             name: "Social media",
             subName: "management",
-            img: gd,
+            img: appDesign,
             color: "#01A2D1"
         },
         {
             name: "Content",
             subName: "Marketing",
-            img: appDesign,
+            img: Content,
             color: "#6D1D6C"
         },
         {
             name: "Google, Facebook,",
             subName: "Instagram ads",
-            img: gd,
+            img: seo,
             color: "#01A2D1"
         },
         {
             name: "Video Editing",
             subName: "& Animations",
-            img: appDesign,
+            img: Animations,
             color: "#6D1D6C"
         },
         {
             name: "VFX",
             subName: "Animation",
-            img: gd,
+            img: Animations,
             color: "#01A2D1"
         },
         {
@@ -52,7 +68,7 @@ const ServicesAnimationHP = () => {
         {
             name: "Strategic Media",
             subName: "Planning",
-            img: gd,
+            img: seo,
             color: "#01A2D1"
         },
         {
@@ -64,103 +80,103 @@ const ServicesAnimationHP = () => {
         {
             name: "Custom Website",
             subName: "Development",
-            img: gd,
+            img: Revamping,
             color: "#01A2D1"
         },
         {
             name: "Static and dynamic",
             subName: "websites",
-            img: appDesign,
+            img: dynamic,
             color: "#6D1D6C"
         },
         {
             name: "Revamping",
             subName: "Website",
-            img: gd,
+            img: Revamping,
             color: "#01A2D1"
         },
         {
             name: "UI//UX",
             subName: "Design",
-            img: gd,
+            img: UIUX,
             color: "#01A2D1"
         },
         {
             name: "Web application",
             subName: "development",
-            img: gd,
+            img: Website,
             color: "#01A2D1"
         },
         {
             name: "E-commerce",
             subName: "Website",
-            img: gd,
+            img: Ecommerce,
             color: "#01A2D1"
         },
         {
             name: "WordPress",
             subName: "Websites",
-            img: gd,
+            img: WordPress,
             color: "#01A2D1"
         },
         {
             name: "Shopify",
             subName: "Websites",
-            img: gd,
+            img: Shopify,
             color: "#01A2D1"
         },
         {
             name: "Multi-vendor",
             subName: "Websites",
-            img: gd,
+            img: contentMarketing,
             color: "#01A2D1"
         },
         {
             name: "Business Portfolio",
             subName: "Website",
-            img: gd,
+            img: Business,
             color: "#01A2D1"
         },
         {
             name: "Product",
             subName: "Photography",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "E-commerce",
             subName: "photoshoot",
-            img: gd,
+            img: Ecommerce,
             color: "#01A2D1"
         },
         {
             name: "Concept",
             subName: "photography",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "Model",
             subName: "Photoshoot",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "Mobile App",
             subName: "Solutions",
-            img: gd,
+            img: App,
             color: "#01A2D1"
         },
         {
             name: "Flutter App",
             subName: "Development",
-            img: gd,
+            img: Mobile,
             color: "#01A2D1"
         },
         {
             name: "Web App",
             subName: "Development",
-            img: gd,
+            img: Marketing,
             color: "#01A2D1"
         },
     ]
@@ -168,7 +184,7 @@ const ServicesAnimationHP = () => {
         {
             name: "VFX",
             subName: "Animation",
-            img: gd,
+            img: Animations,
             color: "#01A2D1"
         },
         {
@@ -180,7 +196,7 @@ const ServicesAnimationHP = () => {
         {
             name: "Strategic Media",
             subName: "Planning",
-            img: gd,
+            img: seo,
             color: "#01A2D1"
         },
         {
@@ -192,209 +208,234 @@ const ServicesAnimationHP = () => {
         {
             name: "Custom Website",
             subName: "Development",
-            img: gd,
+            img: Revamping,
             color: "#01A2D1"
         },
         {
             name: "Static and dynamic",
             subName: "websites",
-            img: appDesign,
+            img: dynamic,
             color: "#6D1D6C"
         },
         {
             name: "Revamping",
             subName: "Website",
-            img: gd,
+            img: Revamping,
             color: "#01A2D1"
         },
         {
             name: "UI//UX",
             subName: "Design",
-            img: gd,
+            img: UIUX,
             color: "#01A2D1"
         },
         {
             name: "Web application",
             subName: "development",
-            img: gd,
+            img: Website,
             color: "#01A2D1"
         },
         {
             name: "E-commerce",
             subName: "Website",
-            img: gd,
+            img: Ecommerce,
             color: "#01A2D1"
         },
         {
             name: "WordPress",
             subName: "Websites",
-            img: gd,
+            img: WordPress,
             color: "#01A2D1"
         },
         {
             name: "Shopify",
             subName: "Websites",
-            img: gd,
+            img: Shopify,
             color: "#01A2D1"
         },
         {
             name: "Multi-vendor",
             subName: "Websites",
-            img: gd,
+            img: contentMarketing,
             color: "#01A2D1"
         },
         {
             name: "Business Portfolio",
             subName: "Website",
-            img: gd,
+            img: Business,
             color: "#01A2D1"
         },
         {
             name: "Product",
             subName: "Photography",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "E-commerce",
             subName: "photoshoot",
-            img: gd,
+            img: Ecommerce,
             color: "#01A2D1"
         },
         {
             name: "Concept",
             subName: "photography",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "Model",
             subName: "Photoshoot",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "Mobile App",
             subName: "Solutions",
-            img: gd,
+            img: App,
             color: "#01A2D1"
         },
         {
             name: "Flutter App",
             subName: "Development",
-            img: gd,
+            img: Mobile,
             color: "#01A2D1"
         },
         {
             name: "Web App",
             subName: "Development",
-            img: gd,
+            img: Marketing,
             color: "#01A2D1"
         },
         
         {
             name: "Graphic",
             subName: "Designing",
-            img: appDesign,
+            img: gd,
             color: "#6D1D6C"
         },
         {
             name: "Social media",
             subName: "management",
-            img: gd,
+            img: appDesign,
             color: "#01A2D1"
         },
         {
             name: "Content",
             subName: "Marketing",
-            img: appDesign,
+            img: Content,
             color: "#6D1D6C"
         },
         {
             name: "Google, Facebook,",
             subName: "Instagram ads",
-            img: gd,
+            img: seo,
             color: "#01A2D1"
         },
         {
             name: "Video Editing",
             subName: "& Animations",
-            img: appDesign,
+            img: Animations,
             color: "#6D1D6C"
         },
     ]
     const services3 = [
-        {
-            name: "Multi-vendor",
-            subName: "Websites",
-            img: gd,
-            color: "#01A2D1"
-        },
+        
         {
             name: "Business Portfolio",
             subName: "Website",
-            img: gd,
+            img: Business,
             color: "#01A2D1"
         },
         {
             name: "Product",
             subName: "Photography",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "E-commerce",
             subName: "photoshoot",
-            img: gd,
+            img: Ecommerce,
             color: "#01A2D1"
         },
         {
             name: "Concept",
             subName: "photography",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "Model",
             subName: "Photoshoot",
-            img: gd,
+            img: Photography,
             color: "#01A2D1"
         },
         {
             name: "Mobile App",
             subName: "Solutions",
-            img: gd,
+            img: App,
             color: "#01A2D1"
         },
         {
             name: "Flutter App",
             subName: "Development",
-            img: gd,
+            img: Mobile,
             color: "#01A2D1"
         },
         {
             name: "Web App",
             subName: "Development",
-            img: gd,
+            img: Marketing,
             color: "#01A2D1"
         },
         {
-            name: "Graphic",
-            subName: "Designing",
-            img: appDesign,
-            color: "#6D1D6C"
+            name: "Revamping",
+            subName: "Website",
+            img: Revamping,
+            color: "#01A2D1"
         },
         {
-            name: "Social media",
-            subName: "management",
-            img: gd,
+            name: "UI//UX",
+            subName: "Design",
+            img: UIUX,
+            color: "#01A2D1"
+        },
+        {
+            name: "Web application",
+            subName: "development",
+            img: Website,
+            color: "#01A2D1"
+        },
+        {
+            name: "E-commerce",
+            subName: "Website",
+            img: Ecommerce,
+            color: "#01A2D1"
+        },
+        {
+            name: "WordPress",
+            subName: "Websites",
+            img: WordPress,
             color: "#01A2D1"
         },
         
         {
+            name: "VFX",
+            subName: "Animation",
+            img: Animations,
+            color: "#01A2D1"
+        },
+        {
+            name: "Media",
+            subName: "buying",
+            img: appDesign,
+            color: "#6D1D6C"
+        },
+        {
             name: "Strategic Media",
             subName: "Planning",
-            img: gd,
+            img: seo,
             color: "#01A2D1"
         },
         {
@@ -406,82 +447,57 @@ const ServicesAnimationHP = () => {
         {
             name: "Custom Website",
             subName: "Development",
-            img: gd,
+            img: Revamping,
             color: "#01A2D1"
         },
         {
             name: "Static and dynamic",
             subName: "websites",
-            img: appDesign,
+            img: dynamic,
             color: "#6D1D6C"
         },
         {
-            name: "Revamping",
-            subName: "Website",
-            img: gd,
+            name: "Shopify",
+            subName: "Websites",
+            img: Shopify,
             color: "#01A2D1"
         },
         {
-            name: "UI//UX",
-            subName: "Design",
+            name: "Graphic",
+            subName: "Designing",
             img: gd,
+            color: "#6D1D6C"
+        },
+        {
+            name: "Social media",
+            subName: "management",
+            img: appDesign,
             color: "#01A2D1"
         },
         {
             name: "Content",
             subName: "Marketing",
-            img: appDesign,
+            img: Content,
             color: "#6D1D6C"
         },
         {
             name: "Google, Facebook,",
             subName: "Instagram ads",
-            img: gd,
+            img: seo,
             color: "#01A2D1"
         },
         {
             name: "Video Editing",
             subName: "& Animations",
-            img: appDesign,
+            img: Animations,
             color: "#6D1D6C"
         },
         {
-            name: "VFX",
-            subName: "Animation",
-            img: gd,
-            color: "#01A2D1"
-        },
-        {
-            name: "Media",
-            subName: "buying",
-            img: appDesign,
-            color: "#6D1D6C"
-        },
-        {
-            name: "Web application",
-            subName: "development",
-            img: gd,
-            color: "#01A2D1"
-        },
-        {
-            name: "E-commerce",
-            subName: "Website",
-            img: gd,
-            color: "#01A2D1"
-        },
-        {
-            name: "WordPress",
+            name: "Multi-vendor",
             subName: "Websites",
-            img: gd,
+            img: contentMarketing,
             color: "#01A2D1"
         },
-        {
-            name: "Shopify",
-            subName: "Websites",
-            img: gd,
-            color: "#01A2D1"
-        },
-        
     ]
     return (
         <div className='max-w-screen-xl mx-auto overflow-hidden h-[740px] px-4 lg:px-0'>

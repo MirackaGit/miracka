@@ -23,7 +23,7 @@ const ServicesAnimationMap = ({ services, seriversClass }) => {
                                         <div>
                                             <h6 className='text-[#6e6e6e] group-hover:text-[#ffffff]'>{servicAna.subName}</h6>
                                         </div>
-                                        <div className='w-[100%] my-4'>
+                                        <div className='w-[160px] md:w-[220px] my-4'>
                                             <Image src={servicAna.img} alt={servicAna.name} width={"auto"} height={"100%"} />
                                         </div>
                                     </Link>

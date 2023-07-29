@@ -3,15 +3,23 @@ import React from 'react';
 import Image from 'next/image';
 
 // images
-import img1 from "../asstes/contactus/1.webp"
-import img2 from "../asstes/contactus/2.webp"
+import img1 from "../asstes/contactus/img1.png"
+import img2 from "../asstes/contactus/img2.png"
 import { BsFillEnvelopeAtFill, BsFillTelephoneInboundFill } from 'react-icons/bs';
+import Link from 'next/link';
 
 
 
 const ContactUs = () => {
     const showImage = [
-        img1, img2,
+        {
+            link: "https://pawsparadise.in/",
+            img: img1
+        },
+        {
+            link: "https://cityprime.in/",
+            img: img2,
+        }
     ]
     return (
         <div>
@@ -37,8 +45,10 @@ const ContactUs = () => {
                         {
                             showImage.map((showImg, si) => {
                                 return (
-                                    <div key={si}>
-                                        <Image src={showImg} alt='services' width={'auto'} height={"auto"} />
+                                    <div key={si} className='my-8'>
+                                        <Link href={showImg.link} target='_blank'>
+                                            <Image src={showImg.img} alt='services' width={'auto'} height={"auto"} />
+                                        </Link>
                                     </div>
                                 )
                             })
