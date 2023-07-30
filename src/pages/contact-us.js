@@ -5,6 +5,9 @@ import Image from 'next/image';
 // images
 import img1 from "../asstes/contactus/img1.png"
 import img2 from "../asstes/contactus/img2.png"
+
+import pin from "../asstes/contactus/pin.png"
+
 import { BsFillEnvelopeAtFill, BsFillTelephoneInboundFill } from 'react-icons/bs';
 import Link from 'next/link';
 
@@ -39,6 +42,15 @@ const ContactUs = () => {
                             <p>Contact Us</p>
                             <h6 className='flex items-center'><span className='mr-4'><BsFillEnvelopeAtFill /></span>miracka@miracka.com</h6>
                             <h6 className='flex items-center'><span className='mr-4'><BsFillTelephoneInboundFill /></span>89044 16903</h6>
+                            <div className='flex items-center'>
+                                <div className='mr-4 w-[48px]'><Image src={pin} alt='location' width={'auto'} height={"auto"} /></div>
+                                <h6 >25/32, Devarachikkanahalli Main Road, Hobli, Nanjundaiah Layout, Begur, Bengaluru, Karnataka 560068</h6>
+                            </div>
+                            <div className='flex items-center'>
+                                <div className='mr-4 w-[34px]'><Image src={pin} alt='location' width={'auto'} height={"auto"} /></div>
+                                <h6 >Mugaluru, Sarjapura hobli, Chikkatirupathi Road, Bangalore - 562125</h6>
+                            </div>
+
                         </div>
                     </div>
                     <div className='w-[100%] md:w-[40%]'>
