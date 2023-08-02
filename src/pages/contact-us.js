@@ -29,7 +29,7 @@ const ContactUs = () => {
         <>
             <HeaderPage title={"contact us"} />
             <div>
-                <div className='max-w-screen-xl mx-auto px-4 lg:px-0 pt-6 pb-12'>
+                <div className='max-w-screen-xl mx-auto px-4 xl:px-0 pt-6 pb-12'>
                     <div className='flex flex-col md:flex-row gap-6'>
                         <div className='w-[100%] md:w-[60%]'>
                             <div className='grid grid-cols-1 gap-4'>
