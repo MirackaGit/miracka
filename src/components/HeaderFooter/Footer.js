@@ -3,7 +3,7 @@ import React from 'react'
 
 import Link from 'next/link'
 // iamges
-import headerLogo from "../../asstes/homePage/ogLogo.svg"
+import headerLogo from "../../asstes/homePage/headerLogo.svg"
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
