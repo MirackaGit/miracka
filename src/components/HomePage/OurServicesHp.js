@@ -176,7 +176,7 @@ const OurServicesHp = () => {
 
 
     return (
-        <div className='mt-10 md:mt-20 px-4 md:px-0'>
+        <div className='mt-10 md:mt-16 px-4 md:px-0'>
             <div className='grid grid-cols-1 gap-4'>
                 <div>
                     <h2 className="md:text-center">Our Services</h2>

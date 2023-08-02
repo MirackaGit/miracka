@@ -12,8 +12,8 @@ export default function ContactUsForm() {
     const [email, setEmail] = React.useState("")
     const [mobile, setMobile] = React.useState("")
     const [message, setMesage] = React.useState("")
-    const [serviceIntersted, setServiceIntersted] = React.useState("")
-    const [hoveredIndex,setHoveredIndex] = React.useState("")
+    const [serviceIntersted, setServiceIntersted] = React.useState([])
+    const [hoveredIndex, setHoveredIndex] = React.useState("")
     const [formError, setFormError] = React.useState({})
     const formErr = {}
 
@@ -74,20 +74,33 @@ export default function ContactUsForm() {
         setHoveredIndex(-1)
     }
 
+    const handleServiceClick = (index) => {
+        const selectedService = services[index];
+        if (serviceIntersted.includes(selectedService)) {
+            setServiceIntersted((prevSelectedServices) =>
+                prevSelectedServices.filter((service) => service !== selectedService)
+            );
+        } else {
+            setServiceIntersted((prevSelectedServices) => [...prevSelectedServices, selectedService]);
+        }
+        setHoveredIndex(index);
+    };
+
     const handleFormSubmit = async (e) => {
         e.preventDefault()
         handleFormError()
         if (Object.keys(formErr).length > 0) {
             setFormError(formErr)
         } else {
-            // const data = { name, email, message, mobile, serviceIntersted }
+            // const data = { name, email, message, mobile, serviceIntersted:serviceIntersted.toString() }
+            // console.log(data)
             try {
                 await emailjs.send('service_vqz8t4o', 'template_245p05e', {
                     to_name: 'Miracka',
                     from_name: name,
                     from_email: email,
                     from_mobile: mobile,
-                    from_service:serviceIntersted,
+                    from_service: serviceIntersted.toString(),
                     message: message
                 });
                 resolve()
@@ -186,20 +199,20 @@ export default function ContactUsForm() {
                     </div>
                 </div>
                 <div className="my-4 grid grid-cols-1 gap-4">
-                    <h6>Which services are you interested in?</h6>
+                    <h6>What services do you require?</h6>
                     <div className="flex flex-wrap flex-row items-center gap-4 md:gap-2">
-                        {
-                            services.map((service, s) => {
-                                return <div key={s}
-                                    style={{ backgroundColor: hoveredIndex === s ? "#00A2D0" : '#FFFFFF' }}
-                                    className="text-[14px] md:text-[16px] cursor-pointer px-2 py-1.5 md:px-4 md:py-2 border-[2px] border-[#aaaaaa] inline-block rounded-[50px]"
-                                    onClick={() => {
-                                        setServiceIntersted(service)
-                                        setHoveredIndex(s)
-                                    }}
-                                >{service}</div>
-                            })
-                        }
+                        {services.map((service, index) => (
+                            <div
+                                key={index}
+                                style={{
+                                    backgroundColor: serviceIntersted.includes(service) ? "#00A2D0" : "#FFFFFF",
+                                }}
+                                className="text-[14px] md:text-[16px] cursor-pointer px-2 py-1.5 md:px-4 md:py-2 border-[2px] border-[#aaaaaa] inline-block rounded-[50px]"
+                                onClick={() => handleServiceClick(index)}
+                            >
+                                {service}
+                            </div>
+                        ))}
                     </div>
                 </div>
                 <button type="submit"

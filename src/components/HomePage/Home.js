@@ -6,10 +6,12 @@ import ServicesAnimationHP from './ServicesAnimationHP'
 import TeamHP from './TeamHP'
 import ClientsHP from './ClientsHP'
 import HearfromourclientsHP from './HearfromourclientsHP'
+import HeaderPage from '../HeaderFooter/HeaderPage'
 
 const Home = () => {
   return (
     <div>
+      <HeaderPage title={"Home"}/>
       <HeroBannerHP />
       <OurServicesHp />
       <AboutusHP />

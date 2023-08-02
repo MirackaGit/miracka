@@ -14,7 +14,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 
 import Image from "next/image";
-import logo from "../../asstes/homePage/headerLogo.svg"
+import logo from "../../asstes/homePage/ogLogo.svg"
 
 export default function NavBar() {
     const [openNav, setOpenNav] = useState(false);
@@ -81,7 +81,7 @@ export default function NavBar() {
             <div className="bg-[#000000] text-white w-[100%] z-[2000] shadow-md" style={{ position: "sticky", top: "0px", }} ref={ref}>
                 <nav className="max-w-screen-xl md:mx-auto py-4 px-4">
                     <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-                        <div className="w-[120px] box-border">
+                        <div className="w-[130px] md:w-[180px] box-border">
                             <Link href={"/"}>
                                 <Image src={logo} alt="Mircaka" width={"auto"} height="auto" />
                             </Link>
